@@ -1,3 +1,60 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+nav {
+    height: 80px;
+    background-color: rgb(159, 128, 159);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family:;
+    padding:0 2rem;
+    margin-left: 100px;
+    
+    
+}
+ nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: ;
+    margin-right: 45px;
+    font-size: 1.5rem;
+ }
+ .hero {
+    
+    margin: 6rem ;
+ }
+ .hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vr;
+    padding: 3rem;
+ }
+.column-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    color: ;
+    padding: 0rem 2rem;
+
+}
+.column-right h1 {
+margin-bottom: 1rem;
+font-size: 3rem
 }
