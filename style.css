@@ -1,76 +1,41 @@
-*{
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: ;
-    
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-.container {
-    width: 100%;
-  height: 100vh;
-  opacity: 90%;
-  background-image: url(images/tło1.avif);
-  background-size: cover;
-  filter: brightness(15%);
-  background-color: rgba(0, 0, 0, 0.5)
+background-image: url(images/tło1.avif);
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
 
 }
-
-nav {
-    height: 180px;
-    background-color: rgb(167, 51, 98);
+nav  {
     display: flex;
     justify-content: space-between;
+    justify-self:center;
     align-items: center;
-    padding: 0;
-    
-}
+    padding: 0rem calc((100vw-1300px)/2);
+    margin-top: 2%;
+    background-color: rgb(28, 10, 23);
+    height: 180px;
+    opacity: 0.9;
 
+}
 .logo {
-    color: aliceblue;
-    font-size: 3rem;
+    padding: 0 4rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: rgb(232, 215, 126);
     font-weight: bold;
-    font-style: italic;
-    font-family:;
-    padding:0 2rem;
-    margin-left: 100px;
-    
-    
-}
- nav a {
-    text-decoration: none;
-    color: aliceblue;
-    padding: 0 1.5rem;
-    font-weight: bold;
-    font-style: italic;
-    font-family: ;
-    margin-right: 45px;
-    font-size: 1.5rem;
- }
- .hero {
-    
-    margin: 6rem ;
- }
- .hero-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 95vr;
-    padding: 3rem;
- }
-.column-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    color: ;
-    padding: 0rem 2rem;
 
 }
-.column-right h1 {
-margin-bottom: 1rem;
-font-size: 3rem
+    
+    
+    
+nav a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: rgb(232, 215, 126);
+    font-family: 'Dancing Script';
+    text-decoration:;
 }
