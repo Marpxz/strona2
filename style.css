@@ -12,9 +12,11 @@ body{
 .container {
     width: 100%;
   height: 100vh;
-  opacity: 70%;
-  background-image: url(images/tło.jpeg);
+  opacity: 90%;
+  background-image: url(images/tło1.avif);
   background-size: cover;
+  filter: brightness(15%);
+  background-color: rgba(0, 0, 0, 0.5)
 
 }
 
