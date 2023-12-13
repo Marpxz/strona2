@@ -1,13 +1,18 @@
 body {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-background-image: url(images/tło1.avif);
-background-repeat: no-repeat;
-background-size: cover;
-z-index: -1;
+    margin: 0,5%;
+    padding: 0,5%;
+    background-image: url(images/tło1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
+
+ 
+
+
+
 nav  {
     display: flex;
     justify-content: space-between;
@@ -46,9 +51,17 @@ nav a {
 }
 .container {
     display: grid;
-    grid-template-columns: 1.8fr 1fr;
+    grid-template-columns: 1.4fr 1fr;
     height: 50vw;
     padding: 3rem (calc(100vw-1300px));
+    background-color:beige;
+}
+.heading {
+    font-size: 3.4rem;
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+    color: rgb(58, 26, 49);
+   
 }
 .column-left {
     display: flex;
@@ -56,8 +69,23 @@ nav a {
     justify-content: center;
     align-items: flex-start;
     padding: 0rem 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(104, 104, 141);
+    
 }
 .column-left p {
 line-height: 1.4;
-font-size: 1.4rem;
+font-size: 1.2rem;
+margin-bottom: 2rem;
+
+
+}
+.hero-image {
+    width: 380px;
+    height: 380px;
+   border-radius: 3000px;
+   border-width: 50px;
+   margin-top: 7rem;
+   
 }
