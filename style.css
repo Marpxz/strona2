@@ -14,8 +14,8 @@ nav  {
     justify-self:center;
     align-items: center;
     padding: 0rem calc((100vw-1300px)/2);
-    margin-top: 2%;
-    background-color: rgb(28, 10, 23);
+    margin-top: 0;
+    background-color: rgb(58, 26, 49);
     height: 180px;
     opacity: 0.9;
 
@@ -38,4 +38,26 @@ nav a {
     color: rgb(232, 215, 126);
     font-family: 'Dancing Script';
     text-decoration:;
+}
+.hero {
+    background-color: rgb(170, 127, 127);
+    opacity: 0.8;
+    margin-top: 0rem;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    height: 50vw;
+    padding: 3rem (calc(100vw-1300px));
+}
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 2rem;
+}
+.column-left p {
+line-height: 1.4;
+font-size: 1.4rem;
 }
