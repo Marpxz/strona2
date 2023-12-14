@@ -37,7 +37,7 @@ nav a {
     text-decoration:;
 }
 .hero {
-    background-color: rgb(170, 127, 127);
+    background-color: rgb(240, 240, 226);
     opacity: 0.8;
     margin-top: 0rem;
 }
@@ -46,12 +46,12 @@ nav a {
     grid-template-columns: 1fr 1fr;
     height: 50vw;
     padding: 3rem (calc(100vw-1300px));
-    background-color:beige;
+    background-color:beige
     opacity: 0.9;
 }
 .heading {
-    font-size: 3.4rem;
-    font-family: 'Dancing Script';
+    font-size: 3rem;
+    font-family: 'Hedvig Letters Serif', serif;
     font-weight: bolder;
     color: rgb(58, 26, 49);
 }
@@ -70,7 +70,7 @@ nav a {
 line-height: 1.4;
 font-size: 1.2rem;
 margin-bottom: 2rem;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Hedvig Letters Serif', serif;
 font-weight: bold;
 color: rgb(34, 16, 33);
 }
@@ -106,7 +106,7 @@ color: rgb(34, 16, 33);
     color: rgb(47, 19, 39);
     font-size: 4rem;
     align-items: center;
-    font-family:'Dancing Script' ;
+    font-family:'Hedvig Letters Serif', serif ;
     padding-left: 3.5rem;
 }
 .galeria img {
