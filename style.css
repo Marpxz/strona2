@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
-    margin: 5;
-    padding: 0.7rem;
+    margin: 0.5;
+    padding: 0.5;
     backgroud-image: url(images/tło1.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,25 +16,30 @@ nav  {
     align-items: center;
     padding: 0rem calc((100vw-1300px)/2);
     margin-top: 0;
-    backgroun-color: rgb(58, 26, 49);
+    background-color: beige;
     height: 130px;
     opacity: 0.9;
+    border-bottom: 3px solid rgb(34, 16, 33);
+   
 }
 .logo {
     padding: 0 4rem;
     font-family: 'Dancing Script', cursive;
     font-size: 5rem;
-    color: rgb(232, 215, 126);
+    color:rgb(34, 16, 33);
     font-weight: bold;
 
 }   
 nav a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0 1.5rem;
-    color: rgb(232, 215, 126);
+    color: rgb(34, 16, 33);
     font-family: 'Dancing Script';
-    text-decoration:;
+    border: 2px solid rgb(34, 16, 33);
+    margin-right: 2rem;
+    background-color: rgba(129, 120, 127, 0.499)
+   
 }
 .hero {
     background-color: rgb(240, 240, 226);
@@ -43,14 +48,14 @@ nav a {
 }
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     height: 50vw;
     padding: 3rem (calc(100vw-1300px));
-    background-color:beige
-    opacity: 0.9;
+    background-color:beige;
+   
 }
 .heading {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: 'Hedvig Letters Serif', serif;
     font-weight: bolder;
     color: rgb(58, 26, 49);
@@ -60,9 +65,9 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0rem 2rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    
+    padding-left: 8rem;
+    padding-right: 0;
     backgroud-color: beige;
     
 }
@@ -74,15 +79,21 @@ font-family: 'Hedvig Letters Serif', serif;
 font-weight: bold;
 color: rgb(34, 16, 33);
 }
+.column-right {
+    padding-left: 0;
+    padding-right: 13rem;
+    margin-top: 3.5rem;
+}
 .hero-image {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
    border-radius: 3000px;
    border-width: 50px;
    margin-top: 6rem;
-   margin-left: 3.5rem;
+   margin-left:0;
    margin-bottom: 5rem;
    
+   border: 10px solid rgb(34, 16, 33);
 }
 .galeria-items {
     background-color: rgba(143, 148, 143, 0.59);
