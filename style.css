@@ -35,10 +35,11 @@ nav a {
     font-size: 1.5rem;
     padding: 0 1.5rem;
     color: rgb(34, 16, 33);
-    font-family: 'Dancing Script';
-    border: 2px solid rgb(34, 16, 33);
+    font-family:'Hedvig Letters Serif', serif ;
+    border-bottom: 2px solid rgb(34, 16, 33);
     margin-right: 2rem;
-    background-color: rgba(129, 120, 127, 0.499)
+    font-weight: bold;
+    backgrousd-color: rgba(129, 120, 127, 0.499)
    
 }
 .hero {
