@@ -45,9 +45,10 @@ nav a {
    
 }
 .hero {
-    background-color:rgb(67, 88, 88);
+    background-clor:rgb(67, 88, 88);
     opacity: ;
     margin-top: 0rem;
+    background-image: url(images/drops-3273161_1280.jpg);
     
    
 }
@@ -75,7 +76,7 @@ nav a {
     
     padding-left: 8rem;
     padding-right: 0;
-    backgroud-color: beige;
+   
     
 }
 p {
@@ -83,7 +84,6 @@ line-height: 1.4;
 font-size: 1rem;
 margin-bottom: 2rem;
 font-family: 'Hedvig Letters Serif', serif;
-fontweight: bold;
 color: bisque;
 }
 .column-right {
@@ -100,15 +100,9 @@ color: bisque;
    margin-left:0;
    margin-bottom: 5rem;
    
-   borer: 10px solid rgb(6, 21, 21);
+
 }
-.galeria-items {
-    background-color: rgba(143, 148, 143, 0.59);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr 1fr ;
-   
-}
+
 .galery {
    
     margin-left: 8rem;
@@ -123,12 +117,4 @@ color: bisque;
     font-family:'Hedvig Letters Serif', serif ;
     padding-left: 5rem;
    
-}
-.galeria img {
-    padding-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    height: 270px;
-    background-colr: rgb(34, 16, 33);
-    position: relative;
 }
