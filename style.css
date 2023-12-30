@@ -2,13 +2,17 @@ body {
     box-sizing: border-box;
     margin: 0.1rem;
     padding: 0.1rem;
-    background-iage: url(images/pexels-photo-7577917.webp);
+    background-mage: url(images/tlotl.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:rgb(6, 21, 21);
+    background-color:rgba(129, 100, 77, 0.567);
     z-index: -1;
 }
 
+.social-media {
+
+
+}
 nav  {
     display: flex;
     justify-content: space-between;
@@ -19,36 +23,31 @@ nav  {
     backgroun-color: white;
     height: 80px;
     opacity: 0.9;
-    border-botom: 3px solid rgb(34, 16, 33);
+   
    
 }
-.logo {
-    padding: 0 4rem;
-    font-family: 'Dancing Script', cursive;
-    font-size: 3.5rem;
-    color:bisque;
-    font-weight: bold;
-    margin-top: 0.9rem;
 
-}   
+
+
 nav a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 12px;
-    color: bisque;
+  color:black;
     font-family:'Hedvig Letters Serif', serif ;
     border-bottm: 2px solid rgb(34, 16, 33);
     margin-right: 2rem;
     font-weight: bold;
     background-clor: rgb(34, 16, 33);
     border-radis: 30%;
+    font-family: 'Nanum Myeongjo', serif;
    
 }
 .hero {
-    background-clor:rgb(67, 88, 88);
+    backgound-color:rgb(223, 232, 232);
     opacity: ;
     margin-top: 0rem;
-    background-image: url(images/drops-3273161_1280.jpg);
+    background-iage: url(images/watercolor-6475471_1280.webp);
     
    
 }
@@ -63,18 +62,23 @@ nav a {
    
 }
 .heading {
-    font-size: 2.7rem;
-    font-family: 'Hedvig Letters Serif', serif;
-    font-weight: bolder;
-    color:rgb(6, 21, 21);
+    font-size: 5rem;
+    font-faily: 'Hedvig Letters Serif', serif;
+    font-weight:lighter
+    coor:rgb(6, 21, 21);
+    font-family: 'Nanum Myeongjo', serif;
+   colo:white; 
+    font-famly: 'Playfair Display', serif;
 }
+
+
 .column-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     
-    padding-left: 8rem;
+    padding-left: 9rem;
     padding-right: 0;
    
     
@@ -84,7 +88,7 @@ line-height: 1.4;
 font-size: 1rem;
 margin-bottom: 2rem;
 font-family: 'Hedvig Letters Serif', serif;
-color: bisque;
+coor: bisque;
 }
 .column-right {
     padding-left: 0;
@@ -92,26 +96,27 @@ color: bisque;
     margin-top: 3.5rem;
 }
 .hero-image {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
    border-radius: 3000px;
    border-width: 50px;
-   margin-top: 6rem;
+   margin-top: 5rem;
    margin-left:0;
    margin-bottom: 5rem;
    
 
 }
 
-.galery {
+.o-mnie {
    
     margin-left: 8rem;
+    margin-right: 8rem;
 }
 .galeria h1 {
-    background-color: rgba(143, 148, 143, 0.59);
+    background-clor: rgba(143, 148, 143, 0.59);
     margin-top: 0;
     margin-bottom: 0;
-    color: rgb(47, 19, 39);
+    coor: rgb(47, 19, 39);
     font-size: 4rem;
     align-items: center;
     font-family:'Hedvig Letters Serif', serif ;
