@@ -7,6 +7,9 @@ body {
     background-size: cover;
     background-color:rgba(129, 100, 77, 0.567);
     z-index: -1;
+    backgrond-image: url(images/mama3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .social-media {
@@ -47,8 +50,7 @@ nav a {
     backgound-color:rgb(223, 232, 232);
     opacity: ;
     margin-top: 0rem;
-    background-iage: url(images/watercolor-6475471_1280.webp);
-    
+  
    
 }
 .container {
@@ -85,10 +87,11 @@ nav a {
 }
 p {
 line-height: 1.4;
-font-size: 1rem;
+font-size: 1.3rem;
 margin-bottom: 2rem;
-font-family: 'Hedvig Letters Serif', serif;
-coor: bisque;
+font-family:'Nanum Myeongjo', serif ;
+coor: rgb(223, 232, 232);
+backgrond-color: rgba(74, 47, 71, 0.859);
 }
 .column-right {
     padding-left: 0;
@@ -111,6 +114,8 @@ coor: bisque;
    
     margin-left: 8rem;
     margin-right: 8rem;
+    margin-bottom: 0;
+    background-coor: blueviolet;
 }
 .galeria h1 {
     background-clor: rgba(143, 148, 143, 0.59);
@@ -120,6 +125,11 @@ coor: bisque;
     font-size: 4rem;
     align-items: center;
     font-family:'Hedvig Letters Serif', serif ;
-    padding-left: 5rem;
+    padding-lft: 5rem;
    
+}
+.images {
+   width: 1200px;
+   margin-left: 0;
+   backgrond-color: blueviolet;
 }
