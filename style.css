@@ -123,8 +123,11 @@ font-family:'Nanum Myeongjo', serif ;
     flex-wrap: wrap;
    align-items: center;
     background-color: rgb(249, 249, 249);
-    
+    height: 900px;
 
+}
+.galeria{
+    margin-left: 4rem;
 }
 .gallery img {
     width: 350px;
