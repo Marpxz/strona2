@@ -4,7 +4,7 @@ body {
     padding: 0.1rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:rgba(129, 100, 77, 0.567);
+    background-color:rgba(14, 13, 13, 0.89);
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,9 +102,9 @@ font-family:'Nanum Myeongjo', serif ;
     
 }
 .o-mnie p {
-    background-color: rgba(255, 252, 255, 0.626);
+    background-colr: rgba(255, 252, 255, 0.626);
     padding: 50px;
-    border: 2px solid rgb(6, 5, 0);
+    borde: 2px solid rgb(6, 5, 0);
     font-family:'Nanum Myeongjo', serif ;
 
 }
@@ -123,7 +123,7 @@ font-family:'Nanum Myeongjo', serif ;
     flex-wrap: wrap;
    align-items: center;
     background-color: rgba(3, 3, 3, 0.744);
-    height: 3900px;
+    height: 3200px;
     margin-left: rem;
 
 }
@@ -146,6 +146,19 @@ h1 {
 .heading2 {
     color: aliceblue;
 }
+.kontakt  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8rem;
+    height: 300px;
+}
+.pk {
+    margin-left: 4rem;
+}
+.h1k {
+    margin-left: 0;
+}
 /* Dodaj styl, który może być używany do powiększenia zdjęć */
 /* Na przykład, po kliknięciu */
 .enlarged {
@@ -157,7 +170,7 @@ h1 {
     margin: auto;
     max-width: 90%;
     max-height: 90%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.44);
     z-index: 9999;
 }
 figcaption {
