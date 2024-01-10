@@ -4,7 +4,7 @@ body {
     padding: 0.1rem;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:rgba(14, 13, 13, 0.89);
+    background-color:rgb(23, 23, 23);
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,70 +94,7 @@ font-family:'Nanum Myeongjo', serif ;
 
 }
 
-.o-mnie {
-   
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-bottom: 0;
-    
-}
-.o-mnie p {
-    background-colr: rgba(255, 252, 255, 0.626);
-    padding: 50px;
-    borde: 2px solid rgb(6, 5, 0);
-    font-family:'Nanum Myeongjo', serif ;
 
-}
-
-.images {
-  width: 965px;
-   margin-left: rem;
-   margin-right: 3rem;
-   padding-bottom: 0;
-   margin-bottom: 0;
-   align-items: center;
-
-}
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-   align-items: center;
-    background-color: rgba(3, 3, 3, 0.744);
-    height: 3200px;
-    margin-left: rem;
-
-}
-.galeria{
-    margin: 4rem;
-}
-.gallery img {
-    width: 280px;
-    margin: 40px;
-    margin-left: 40px;
-    margin-right: 0px;
-    background-coor: rgba(255, 252, 255, 0.93);
-    padding: 30px;
-    align-items: center;
-}
-h1 {
-    margin-left: 4rem;
- 
-}
-.heading2 {
-    color: aliceblue;
-}
-.kontakt  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 8rem;
-    height: 300px;
-}
-.pk {
-    margin-left: 4rem;
-}
-.h1k {
-    margin-left: 0;
 }
 /* Dodaj styl, który może być używany do powiększenia zdjęć */
 /* Na przykład, po kliknięciu */
@@ -176,3 +113,74 @@ h1 {
 figcaption {
     font-family:'Nanum Myeongjo', serif ;
 }
+/* Resetowanie domyślnych styli */
+
+  
+  /* Stylizacja sekcji "About" */
+  .about {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  
+  .about-content img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  /* Stylizacja galerii */
+  .gallery {
+    margin-bottom: 40px;
+  }
+  
+  .gallery h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Stylizacja poszczególnych części galerii */
+  .gallery-part {
+    margin-bottom: 30px;
+  }
+  
+  /* Stylizacja zdjęć w galerii */
+  .gallery-part img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Stylizacja opisów pod zdjęciami w galerii */
+  .gallery-part figcaption {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  /* Stylizacja sekcji "Kontakt" */
+  .contact {
+    margin-bottom: 40px;
+  }
+  
+  .contact-details {
+    text-align: center;
+  }
+  
+  .contact-details p {
+    margin-bottom: 10px;
+  }
+  
+  /* Stylizacja stopki */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+  }
+  
