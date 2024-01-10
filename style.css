@@ -30,9 +30,9 @@ nav  {
 
 nav a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 12px;
-  color:black;
+  color:#f0f0f0;
     font-family:'Hedvig Letters Serif', serif ;
     margin-right: 2rem;
     font-weight: bold;
@@ -56,6 +56,7 @@ nav a {
     font-weight:lighter;
     font-family: 'Nanum Myeongjo', serif;
     margin-left: 4rem;
+    color: #f0f0f0;
 }
 
 
@@ -118,26 +119,42 @@ figcaption {
   
   /* Stylizacja sekcji "About" */
   .about {
-    margin-bottom: 40px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* Dodatkowe style według potrzeb */
   }
   
   .about-content {
-    text-align: center;
+    max-width: 800px; /* Dowolna wartość dla szerokości sekcji */
+    margin: 0 auto; /* Aby umieścić sekcję na środku */
+
+  }
+   .about h1 {
+    color: #f0f0f0;
+    font-size: 2rem;
+   }
+
+  .about-text {
+    flex: 1;
+    padding-right: 20px; /* Odstęp między tekstem a obrazem */
+    color: #fdfdfddc;
   }
   
-  .about-content img {
-    max-width: 60%;
+  .about-image img {
+    max-width: 90%;
     height: auto;
     display: block;
-    margin: 0 auto 20px;
   }
+  
+  
+  
   
   /* Stylizacja galerii */
   .gallery {
     margin-bottom: 40px;
+    margin-top: 100px;
+    background-color: #f0f0f0;
   }
   
   .gallery h2 {
