@@ -8,7 +8,7 @@ body {
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
-    
+   
     
 }
 
@@ -18,7 +18,7 @@ nav  {
     justify-content: space-between;
     justify-self:center;
     align-items: center;
-    padding: 0rem calc((100vw-1300px)/2);
+    padding: 0rem ;
     margin-top: 0;
     height: 45px;
     
@@ -40,6 +40,11 @@ nav a {
     font-family: 'Nanum Myeongjo', serif;
    
 }
+nav a:hover {
+    color: rgb(136, 58, 101);
+    font-size: 1.3rem;
+    background-color: #f0eaea;
+}
 .hero {
     margin-top: 0rem;
   
@@ -49,7 +54,7 @@ nav a {
     display: grid;
     grid-template-columns: 3fr 1fr;
     height: 50vw;
-    padding: 3rem (calc(100vw-1300px));
+    padding: 3rem ;
   
 }
 .heading {
@@ -97,28 +102,6 @@ font-family:'Nanum Myeongjo', serif ;
 }
 
 
-}
-/* Dodaj styl, który może być używany do powiększenia zdjęć */
-/* Na przykład, po kliknięciu */
-.enlarged {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 90%;
-    max-height: 90%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.44);
-    z-index: 9999;
-}
-figcaption {
-    font-family:'Nanum Myeongjo', serif ;
-}
-/* Resetowanie domyślnych styli */
-
-  
-  /* Stylizacja sekcji "About" */
   .about {
     display: flex;
     justify-content: space-between;
@@ -151,14 +134,14 @@ figcaption {
     display: block;
     margin-left: 50px;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 80px;
   }
   
 
   
 /* galeria*/
 .gallery-images {
-    padding-bottom: 90px;
+    padding-bottom:90px;
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -200,40 +183,7 @@ figcaption {
     color:#ebe3e3;
     padding: 0px;
   }
-  /*NA PLÓTNIE*/
- .gallery-canva {
-    margin-top: 100px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-    align-items: flex-start;
-    background-coor:rgb(86, 95, 120);
-     /* Maksymalna szerokość sekcji galerii */
-    margin: 0 auto; /* Centrowanie sekcji galerii */
- }
- .gallery-canva h1 {
-    font-size: 2.5rem;
-    color:#d9d6d6;
-    padding: 0px;
- }
-.gallery-canvas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-conent: space-around;
-    width: 100%; /* Szerokość wiersza */
-    margin-bottom: 0px;
-    margin-left: 120px;
-}
-.gallery-canvas figure {
-    width:  /* Szerokość figury (około jednej trzeciej) z odstępem */
-    margin-bottom: 10px;
-    text-align: center;
-    box-sizing: border-box;
-  }
+
 
   figcaption {
     color: #faf8f8;
@@ -242,55 +192,43 @@ figcaption {
     align-self: center;
     flex-wrap: wrap;
     width: 300px;
+    font-family:'Nanum Myeongjo', serif ;
   }
-  .gallery-canvas img {
-    width: 400px;
-    height: auto;
-    display: block;
-    margin-bottom: x;
-   
-  }
-  /*CZARNO-BIALE*/
-  .gallery-black-and-white {
-    background-color:rgb(234, 226, 226);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%; /* Szerokość wiersza */
+
+
     
 
-  }
-  .gallery-black-and-white h1 {
-    font-size: 2.5rem;
-    color:#f7f2f2;
-    padding: 0px;
- text-align: center;
-  }
-  .gallery-black-and-white figure {
-   /* Szerokość figury (około jednej trzeciej) z odstępem */
-    margin-bottom: 50px;
-    text-align: center;
-    box-sizing: border-box;
-  }
+
  
    /* Stylizacja sekcji "Kontakt" */
-   .contact {
-    margin-bottom: 40px;
-  }
-  
-  .contact-details {
-    text-align: center;
-  }
-  
-  .contact-details p {
-    margin-bottom: 10px;
-  }
+ 
   
   /* Stylizacja stopki */
   footer {
     text-align: center;
     padding: 20px 0;
-    background-color:rgb(23, 13, 19);
+    background-color:rgb(46, 37, 42);
     color: #f0eaea;
+    margin-top: 0;
   }
- 
+
+  
+  
+/* telefon */
+@media only screen and (max-width: 768px) {
+
+    nav {
+display: list-item;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+.hero-image {
+    width: fit-content;
+}
+}
+
+@media only screen and (min-width: 1200px) {
+   
+}

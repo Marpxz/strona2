@@ -15,9 +15,9 @@
     <nav>
       
         <div class="nav-items">
-        <a href="">O MNIE</a>
-        <a href="">GALERIA</a>
-        <a href="">KONTAKT</a>
+        <a href="#OMNIE">O MNIE</a>
+        <a href="#GALERIA">GALERIA</a>
+        <a href="#KONTAKT">KONTAKT</a>
         </div>
     </nav>
   <div class="hero">
@@ -40,7 +40,7 @@
   
     </div>
     <div class="rellax" data-rellax-speed="7">
-    <section class="about">
+    <section id="OMNIE" class="about">
         <div class="about-content">
          
             <h1>O MNIE</h1>
@@ -57,7 +57,7 @@
 
     
     <div class="rellax" data-rellax-speed="8">
-    <section class="gallery-images">
+    <section id="GALERIA" class="gallery-images">
         <h1>GALERIA</h1>
   
        
@@ -133,9 +133,13 @@
 </figure>
 
 <figure>
-    <img src="images/galeria/2.15gal.jpg" alt="Opis zdjęcia 1">
-        <figcaption>Slodki kociak utopiony w aromacie pachnocej kawy  zagubiony w wielkiej  filiżance z dodatkiem pysznego mleka o poranku.i gwarem dzieciej radości  życia .</figcaption>
+    <img src="images/galeria/2.15gal.png" alt="Opis zdjęcia 1">
+        <figcaption>Inspiracją  malując ten obraz była bliska mojemu sercu Przyjaciolka, w którym zawarte są symbole ze spędzonych chwil naszego życia, które czytamy tylko My.</figcaption>
       </figure> 
+      <figure>
+        <img src="images/galeria/2.16gal.jpg" alt="Opis zdjęcia 1">
+            <figcaption>Slodki kociak utopiony w aromacie pachnocej kawy  zagubiony w wielkiej  filiżance z dodatkiem pysznego mleka o poranku.i gwarem dzieciej radości  życia .</figcaption>
+          </figure> 
      
       <figure>
         <img src="images/galeria/1.1gal.jpg" alt="Opis zdjęcia 2">
@@ -183,27 +187,22 @@
           
         </div>
         </section>
-  
-        
-       
-  
-      
-    </div>
+  </div>
 
 
    
 
     
     <footer>
-        <section class="contact">
-           
+        <section id="KONTAKT" class="contact">
+       
                <h2>KONTAKT</h2>
             <div class="contact-details">
               <p>Beata Malesa</p>
               <p>Szczecin</p>
               <p>Telefon: 505 037 440</p>
               <p>Email: beatamalesa7@gmail.com</p>
-              
+           
             </div>
           </section>
       
@@ -219,7 +218,14 @@
    
 
 
-   
+   <!-- Dodaj to przed zamknięciem tagu </body> -->
+<script>
+    document.getElementById('mobile-menu').addEventListener('click', function() {
+      var navItems = document.querySelector('.nav-items');
+      navItems.style.display = navItems.style.display === 'flex' ? 'none' : 'flex';
+    });
+  </script>
+  
  <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>  
  <script>
     // Accepts any class name
