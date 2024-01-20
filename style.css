@@ -216,16 +216,20 @@ font-family:'Nanum Myeongjo', serif ;
   
 /* telefon */
 @media only screen and (max-width: 768px) {
-
+body {
+    max-width: 768px;
+}
     nav {
-display: list-item;
+display: flex;
+flex-direction: row;
 }
 .container {
     display: grid;
     grid-template-columns: 1fr;   
 }
 .hero-image {
-    width: fit-content;
+   width: 250px;
+   height: 250px;
 }
 }
 
