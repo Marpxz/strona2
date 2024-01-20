@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
-    margin: 0rem;
-    padding: 0rem;
+    margin: 0;
+    padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-color:rgb(46, 37, 42);
@@ -47,8 +47,8 @@ nav a:hover {
 }
 .hero {
     margin-top: 0rem;
-  
-   background-color:rgb(23, 13, 19);
+    background-color:rgb(23, 13, 19);
+    max-width: 3000px;
 }
 .container {
     display: grid;
@@ -89,8 +89,8 @@ font-family:'Nanum Myeongjo', serif ;
     
 }
 .hero-image {
-    width: 350px;
-    height: 350px;
+width: 350px;
+height: 350px;
    border-radius: 3000px;
    border-width: 50px;
    margin-top: 5rem;
@@ -113,7 +113,7 @@ font-family:'Nanum Myeongjo', serif ;
   }
   
   .about-content {
-    max-width: 900px; /* Dowolna wartość dla szerokości sekcji */
+    max-width: 2000px; /* Dowolna wartość dla szerokości sekcji */
     margin: 0 auto; /* Aby umieścić sekcję na środku */
  padding-bottom: 0;
  margin-bottom: 0;
@@ -125,16 +125,21 @@ font-family:'Nanum Myeongjo', serif ;
   .about-text {
     flex: 1;
     padding-right: 20px; /* Odstęp między tekstem a obrazem */
-    color:#f0eaea
+    color:#f0eaea;
+    max-width: 2000px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   
   .about-image img {
-    max-width: 80%;
+    max-width: 2000px;
     height: auto;
     display: block;
     margin-left: 50px;
     margin-bottom: 0;
     padding-bottom: 80px;
+    padding-right: 10%;
+    padding-left: 10%;
   }
   
 
@@ -220,19 +225,32 @@ body {
     max-width: 768px;
 }
     nav {
-display: flex;
-flex-direction: row;
+
 }
 .container {
-    display: grid;
-    grid-template-columns: 1fr;   
+    display: flex;
+    flex-direction: column; 
 }
 .hero-image {
    width: 250px;
    height: 250px;
 }
+.gallery-images {
+    width: 760px
+}
+.column-left {
+    align-self: center;
+}
+.column-right {
+    align-self: center;
+}
 }
 
-@media only screen and (min-width: 1200px) {
-   
+@media only screen and (max-width:1150px) {
+    body {
+        background-color: rgb(23, 13, 19);
+    }
+.about {
+    background-color: rgb(23, 13, 19)
+}
 }
