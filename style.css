@@ -4,8 +4,8 @@ body {
     padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:rgb(46, 37, 42);
-    z-index: -1;
+    background-color:rgb(23, 13, 19);
+    z-index: -1
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -21,7 +21,7 @@ nav  {
     padding: 0rem ;
     margin-top: 0;
     height: 45px;
-    
+    width:min-content
     background-color: rgb(23, 13, 19);
    
    
@@ -41,14 +41,14 @@ nav a {
    
 }
 nav a:hover {
-    color: rgb(136, 58, 101);
+    color: rgb(23, 13, 19);
     font-size: 1.3rem;
-    background-color: #f0eaea;
+    background-color: rgb(246, 235, 241)
 }
 .hero {
     margin-top: 0rem;
     background-color:rgb(23, 13, 19);
-    max-width: 3000px;
+    width: fit-content
 }
 .container {
     display: grid;
@@ -108,12 +108,13 @@ height: 350px;
     align-items: center;
     background-color:rgb(46, 37, 42);
     margin-bottom: 0;
+   min-width: 100%;
    
     /* Dodatkowe style według potrzeb */
   }
   
   .about-content {
-    max-width: 2000px; /* Dowolna wartość dla szerokości sekcji */
+     /* Dowolna wartość dla szerokości sekcji */
     margin: 0 auto; /* Aby umieścić sekcję na środku */
  padding-bottom: 0;
  margin-bottom: 0;
@@ -121,25 +122,29 @@ height: 350px;
    .about h1 {
     color:#f0eaea;
     font-size: 2.5rem;
+    padding-left: 10%;
    }
   .about-text {
     flex: 1;
-    padding-right: 20px; /* Odstęp między tekstem a obrazem */
+    
     color:#f0eaea;
     max-width: 2000px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
   }
   
   .about-image img {
-    max-width: 2000px;
+  max-width:: 970px;
     height: auto;
     display: block;
-    margin-left: 50px;
+    width: fit-content;
     margin-bottom: 0;
     padding-bottom: 80px;
     padding-right: 10%;
     padding-left: 10%;
+    justify-content: center;
+    margin-right: 10%;
   }
   
 
@@ -151,8 +156,8 @@ height: 350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
-    align-items: flex-start;
+    width: fit-content;
+    align-items: center;
     background-color:rgb(23, 13, 19);
     
      /* Maksymalna szerokość sekcji galerii */
@@ -215,6 +220,7 @@ height: 350px;
     background-color:rgb(46, 37, 42);
     color: #f0eaea;
     margin-top: 0;
+   
   }
 
   
@@ -227,13 +233,23 @@ body {
     nav {
 
 }
-.container {
-    display: flex;
-    flex-direction: column; 
+.about-content {
+    margin: 0 auto;
+}
+.about {
+    background-color: rgb(23, 13, 19);
+    width: 1000px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+.about-text {
+    width: 900px;
+    margin-right: 10px;
+    padding-right: 10px;
+    
 }
 .hero-image {
-   width: 250px;
-   height: 250px;
+  display: none;
 }
 .gallery-images {
     width: 760px
@@ -245,12 +261,70 @@ body {
     align-self: center;
 }
 }
-
-@media only screen and (max-width:1150px) {
+@media only screen and (max-width:1200px) {
     body {
-        background-color: rgb(23, 13, 19);
+        margin-left: 0;
     }
-.about {
-    background-color: rgb(23, 13, 19)
+    .about {
+        background-color: rgb(23, 13, 19);
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0
+    }
+    .about-text {
+        font-size: 4rem;
+        width: 900px;
+        
+    }
+footer {
+    width:1200px;
 }
+.gallery-images {
+  max-width: 1200px;
+
+}
+.gallery-row {
+  
+}
+.gallery-row img {
+   width: 980px;
+   margin-right: 0;
+   padding-right: 0;
+   justify-self: center;
+   justify-content: center;
+}
+p {
+    font-size: 2rem;
+}
+figcaption {
+    width: fit-content;
+    font-size: 2rem;
+    padding-top: 40px;
+    text-align: center;
+}
+}
+@media only screen and (min-width:1500px) and (max-width:1900px){
+    .hero-image {
+        width: 600px;
+        height: 600px; 
+}
+p {
+    font-size: 2rem;
+}
+}
+@media only screen and (min-width:1900px) {
+    .hero-image {
+        width: 700px;
+        height: 700px;
+    }
+    .about-text {
+        padding-left: 40px;
+        padding-right: 100px;
+    }
+    p {
+        font-size: 3rem;
+    }
+    h1 {
+font-size: 6rem;
+    }
 }
