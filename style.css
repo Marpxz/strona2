@@ -6,13 +6,7 @@ body {
     background-size: cover;
     background-color:rgb(23, 13, 19);
     z-index: -1
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-    
 }
-
-
 nav  {
     display: flex;
     justify-content: space-between;
@@ -21,24 +15,17 @@ nav  {
     padding: 0rem ;
     margin-top: 0;
     height: 45px;
-    width:min-content
-    background-color: rgb(23, 13, 19);
-   
-   
+    text-transform: uppercase;
 }
-
-
-
 nav a {
     text-decoration: none;
     font-size: 1.2rem;
     padding: 12px;
-  color:#f0f0f0;
+    color:#f0f0f0;
     font-family:'Hedvig Letters Serif', serif ;
     margin-right: 2rem;
     font-weight: bold;
     font-family: 'Nanum Myeongjo', serif;
-   
 }
 nav a:hover {
     color: rgb(23, 13, 19);
@@ -55,7 +42,6 @@ nav a:hover {
     grid-template-columns: 3fr 1fr;
     height: 50vw;
     padding: 3rem ;
-  
 }
 .heading {
     font-size: 5rem;
@@ -63,9 +49,8 @@ nav a:hover {
     font-family: 'Nanum Myeongjo', serif;
     margin-left: 4rem;
     color: #f0f0f0;
+    text-transform: uppercase;
 }
-
-
 .column-left {
     display: flex;
     flex-direction: column;
@@ -73,69 +58,57 @@ nav a:hover {
     align-items: flex-start;
     padding-left: 9rem;
     padding-right: 0;
-   
 }
 p {
 line-height: 1.4;
 font-size: 1.3rem;
 margin-bottom: 2rem;
 font-family:'Nanum Myeongjo', serif ;
-
 }
 .column-right {
     padding-left: 0;
     padding-right: 13rem;
-    margin-top: 8rem;
-    
+    margin-top: 8rem;   
 }
 .hero-image {
-width: 350px;
-height: 350px;
+   width: 350px;
+   height: 350px;
    border-radius: 3000px;
    border-width: 50px;
    margin-top: 5rem;
    margin-left:0;
    margin-bottom: 5rem;
-  
-  display: block;
-
+   display: block;
 }
-
-
   .about {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:rgb(46, 37, 42);
     margin-bottom: 0;
-   min-width: 100%;
-   
-    /* Dodatkowe style według potrzeb */
+    min-width: 100%;
   }
-  
   .about-content {
-     /* Dowolna wartość dla szerokości sekcji */
-    margin: 0 auto; /* Aby umieścić sekcję na środku */
- padding-bottom: 0;
- margin-bottom: 0;
+    margin: 0 auto; 
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
    .about h1 {
     color:#f0eaea;
     font-size: 2.5rem;
     padding-left: 10%;
+    text-transform: uppercase;
    }
   .about-text {
     flex: 1;
-    
     color:#f0eaea;
     max-width: 2000px;
     padding-left: 10%;
     padding-right: 10%;
     text-align: justify;
   }
-  
   .about-image img {
-  max-width:: 970px;
+    max-width: 970px;
     height: auto;
     display: block;
     width: fit-content;
@@ -145,10 +118,7 @@ height: 350px;
     padding-left: 10%;
     justify-content: center;
     margin-right: 10%;
-  }
-  
-
-  
+  } 
 /* galeria*/
 .gallery-images {
     padding-bottom:90px;
@@ -159,79 +129,53 @@ height: 350px;
     width: fit-content;
     align-items: center;
     background-color:rgb(23, 13, 19);
-    
-     /* Maksymalna szerokość sekcji galerii */
-    margin: 0 auto; /* Centrowanie sekcji galerii */
-  }
-
-  
+    margin: 0 auto; 
+}
   .gallery-row {
     display: flex;
     flex-wrap: wrap;
-    justify-conent: space-around;
     width: 100%; /* Szerokość wiersza */
     margin-bottom: 0px;
     margin-left: 35px;
   }
-  
   .gallery-row figure {
-    width:  /* Szerokość figury (około jednej trzeciej) z odstępem */
-    margin-bottom: 10px;
-    text-align: center;
     box-sizing: border-box;
   }
-  
   .gallery-row img {
     width: 300px;
     height: auto;
     display: block;
-    margin-bottom: px;
-   
   }
   .gallery-images h1 {
     font-size: 3.5rem;
     color:#ebe3e3;
     padding: 0px;
+    text-transform: uppercase;
   }
-
-
   figcaption {
     color: #faf8f8;
-    font-style: italic;
     font-size: 1.5rem;
     align-self: center;
     flex-wrap: wrap;
     width: 300px;
     font-family:'Nanum Myeongjo', serif ;
+    padding-top: 20px;
   }
-
-
-    
-
-
- 
-   /* Stylizacja sekcji "Kontakt" */
- 
-  
-  /* Stylizacja stopki */
   footer {
     text-align: center;
     padding: 20px 0;
     background-color:rgb(46, 37, 42);
     color: #f0eaea;
     margin-top: 0;
-   
+  }
+  footer h2 {
+    text-transform: uppercase;
   }
 
-  
-  
 /* telefon */
 @media only screen and (max-width: 768px) {
-body {
-    max-width: 768px;
-}
     nav {
-
+ width: min-content;
 }
 .about-content {
     margin: 0 auto;
@@ -246,7 +190,6 @@ body {
     width: 900px;
     margin-right: 10px;
     padding-right: 10px;
-    
 }
 .hero-image {
   display: none;
@@ -274,17 +217,12 @@ body {
     .about-text {
         font-size: 4rem;
         width: 900px;
-        
     }
 footer {
     width:1200px;
 }
 .gallery-images {
   max-width: 1200px;
-
-}
-.gallery-row {
-  
 }
 .gallery-row img {
    width: 980px;
@@ -314,8 +252,17 @@ p {
 }
 @media only screen and (min-width:1900px) {
     .hero-image {
-        width: 700px;
+       min-width: 700px;
         height: 700px;
+        align-self: center;
+    }
+    nav {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    nav a{
+        font-size: 3rem;
+        padding-top: 40px;
     }
     .about-text {
         padding-left: 40px;
@@ -324,7 +271,49 @@ p {
     p {
         font-size: 3rem;
     }
-    h1 {
-font-size: 6rem;
+    .gallery-images {
+        width: 100%;
+        
+    }
+    .gallery-row img {
+        width: 500px;
+    }
+    .about img {
+        width: 1500px;
+        align-self: center;
+        padding-top: 30px;
+    }
+    .about p {
+        align-self: center;
+        margin-left: 50px;
+    }
+    .about h1 {
+        font-size: 6rem;
+    }
+   .gallery-images h1 {
+    font-size: 6rem;
+   }
+   figcaption {
+    font-size: 3rem;
+    width: 500px
+   }
+    .heading {
+        font-size: 10rem;
+    }
+}
+@media only screen and (min-width:2600px) {
+    .hero-image {
+        width: 900px;
+        height: 900px;
+        margin-right: 500px;
+        margin-top: 400px;
+    }
+    .heading {
+        margin-left: 300px;
+    }
+    .about p{
+        margin-left: 0px;
+        padding-left: 0px;
+        align-content: center;
     }
 }
