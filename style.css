@@ -159,8 +159,8 @@ font-family:'Nanum Myeongjo', serif ;
     align-self: center;
     flex-wrap: wrap;
     width: 300px;
-    font-family:'Nanum Myeongjo', serif ;
     padding-top: 20px;
+    font-style: italic;
   }
   footer {
     text-align: center;
@@ -181,7 +181,7 @@ font-family:'Nanum Myeongjo', serif ;
  margin-left: 30px;
 }
 nav a {
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 4px;
     background-color: #f0eaea;
     color: rgb(23, 13, 19);
@@ -191,28 +191,53 @@ nav a {
 }
 .about {
     background-color: rgb(23, 13, 19);
-    width: 1000px;
+    width: max-content;
     padding-right: 10px;
     margin-right: 10px;
 }
 .about-text {
     width: auto;
-    margin-right: 10px;
-    padding-right: 10px;
+}
+.about p {
+    font-size: 3rem;
+    margin-left: 60px;
+    margin-right: 0;
+    width: 100%;
+    padding-top: 0;
+}
+.gallery-images h2 {
+    font-size: 5rem;
+    text-align: center;
+    margin-left: 330px;
+}
+footer p {
+    font-size: 3rem;
+}
+figcaption {
+    
+}
+.about img {
+    margin-left: 60px;
+}
+.about h2 {
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 130px;
+
+}
+.heading {
+    font-size: 8rem;
 }
 .hero-image {
   display: none;
 }
 .gallery-images {
-    width: 760px
+    width: 760px;
+    margin-left: 60px;
 }
-.column-left {
-    align-self: center;
+
 }
-.column-right {
-    align-self: center;
-}
-}
+
 @media only screen and (max-width:1200px) {
     body {
         margin-left: 0;
