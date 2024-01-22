@@ -213,6 +213,9 @@ nav a {
 footer p {
     font-size: 3rem;
 }
+footer h2 {
+    font-size: 4rem;
+}
 figcaption {
     font-size: 3rem;
 }
@@ -228,6 +231,7 @@ figcaption {
 }
 .heading {
     font-size: 8rem;
+    margin-bottom: 20px;
 }
 .hero-image {
   display: none;
