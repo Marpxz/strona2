@@ -175,29 +175,30 @@ font-family:'Nanum Myeongjo', serif ;
 /* telefon */
 @media only screen and (max-width: 768px) {
     nav {
- width: min-content;
+ width: max-content;
  margin-top: 60px;
  margin-left: 30px;
 }
 nav a {
     font-size: 2rem;
-    padding-top: 30px;
-    margin-top: 30px;
-    
+    padding: 4px;
+    background-color: #f0eaea;
+    color: rgb(23, 13, 19);
 }
 .about-content {
     margin: 0 auto;
 }
 .about {
     background-color: rgb(23, 13, 19);
-    width: 1000px;
-    padding-right: 10px;
-    margin-right: 10px;
+    with: 1000px;
+    paddi
+    ng-right: 10px;
+    margn-right: 10px;
 }
 .about-text {
     width: auto;
-    margin-right: 10px;
-    padding-right: 10px;
+    margi-right: 10px;
+    paddin-right: 10px;
 }
 .hero-image {
   display: none;
