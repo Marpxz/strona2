@@ -130,7 +130,7 @@ font-family:'Nanum Myeongjo', serif ;
     align-items: center;
     background-color:rgb(23, 13, 19);
     margin: 0 auto; 
-    margin-bottom: 0;
+    margin-bottom: 90px;
 }
   .gallery-row {
     display: flex;
