@@ -214,7 +214,7 @@ footer p {
     font-size: 3rem;
 }
 figcaption {
-    
+    font-size: 3rem;
 }
 .about img {
     margin-left: 60px;
@@ -223,7 +223,7 @@ figcaption {
     font-size: 5rem;
     margin-bottom: 0;
     margin-top: 130px;
-    text-transform: lowercase;
+    text-transform: none
 
 }
 .heading {
