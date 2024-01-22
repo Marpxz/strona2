@@ -158,7 +158,6 @@ font-family:'Nanum Myeongjo', serif ;
     flex-wrap: wrap;
     width: 300px;
     padding-top: 20px;
-    font-stye: italic;
     text-align: center;
   }
   footer {
@@ -309,14 +308,12 @@ p {
     }
     .about-text {
         padding-left: 40px;
-        paddingright: 100px;
     }
     p {
         font-size: 3rem;
     }
     .gallery-images {
         width: 100%;
-        
     }
     .gallery-row img {
         width: 500px;
