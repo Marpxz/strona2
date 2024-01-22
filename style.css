@@ -196,6 +196,7 @@ nav a {
 }
 .about-text {
     width: auto;
+    margin-top: 0;
 }
 .about p {
     font-size: 3rem;
@@ -203,6 +204,7 @@ nav a {
     margin-right: 0;
     width: 100%;
     padding-top: 0;
+    margin-top: 0;
 }
 .gallery-images h2 {
     font-size: 5rem;
@@ -224,7 +226,7 @@ figcaption {
 .about h2 {
     font-size: 5rem;
     margin-bottom: 0;
-    margin-top: 130px;
+    margin-top: 330px;
     text-transform: none
 }
 .hero img {
