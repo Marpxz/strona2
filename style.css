@@ -294,7 +294,8 @@ p {
     }
     .about p {
         align-self: center;
-        margin-left: 50px;
+        margin-left: 80px;
+        font-size: 5rem;
     }
     .about h1 {
         font-size: 6rem;
