@@ -2,8 +2,6 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
     background-color:rgb(23, 13, 19);
     z-index: -1
 }
@@ -239,8 +237,6 @@ figcaption {
     color: rgb(254, 240, 248);
     padding-left: 10px;
     font-weight: bold;
-
-
 }
 .gallery-images {
     width: 760px;
@@ -249,7 +245,6 @@ figcaption {
 }
 
 }
-
 @media only screen and (max-width:1200px) {
     body {
         margin-left: 0;
