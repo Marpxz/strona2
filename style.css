@@ -121,7 +121,6 @@ font-family:'Nanum Myeongjo', serif ;
   } 
 /* galeria*/
 .gallery-images {
-    padding-bottom:90px;
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -130,6 +129,7 @@ font-family:'Nanum Myeongjo', serif ;
     align-items: center;
     background-color:rgb(23, 13, 19);
     margin: 0 auto; 
+    margin-bottom: 0;
 }
   .gallery-row {
     display: flex;
