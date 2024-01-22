@@ -223,6 +223,7 @@ figcaption {
     font-size: 5rem;
     margin-bottom: 0;
     margin-top: 130px;
+    text-transform: lowercase;
 
 }
 .heading {
