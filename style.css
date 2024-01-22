@@ -186,14 +186,13 @@ nav a {
     background-color: #f0eaea;
     color: rgb(23, 13, 19);
 }
-.about-content {
-    margin-top: 40px;
-}
+
 .about {
     background-color: rgb(23, 13, 19);
     width: max-content;
     padding-right: 10px;
     margin-right: 10px;
+    margin-top: 80px;
 }
 .about-text {
     width: auto;
@@ -227,14 +226,19 @@ figcaption {
     margin-bottom: 0;
     margin-top: 130px;
     text-transform: none
-
+}
+.hero img {
+    display: none;
 }
 .heading {
-    font-size: 8rem;
-    margin-bottom: 20px;
-}
-.hero-image {
-  display: none;
+    font-size: 10rem;
+    margin-top: 0px;
+    padding-top: 90px;
+    color: rgb(254, 240, 248);
+    padding-left: 10px;
+    font-weight: bold;
+
+
 }
 .gallery-images {
     width: 760px;
