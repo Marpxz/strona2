@@ -275,7 +275,7 @@ p {
     }
     .about-text {
         padding-left: 40px;
-        padding-right: 100px;
+        paddingright: 100px;
     }
     p {
         font-size: 3rem;
