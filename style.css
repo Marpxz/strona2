@@ -33,13 +33,14 @@ nav a:hover {
 .hero {
     margin-top: 0rem;
     background-color:rgb(23, 13, 19);
-    width: fit-content
+    width: 100%
 }
 .container {
     display: grid;
     grid-template-columns: 3fr 1fr;
     height: 50vw;
-    padding: 3rem ;
+    padding: 3rem;
+  margin: 0;
 }
 .heading {
     font-size: 5rem;
@@ -54,8 +55,9 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 9rem;
+    padding-left: 1rem;
     padding-right: 0;
+    align-self: center;
 }
 p {
 line-height: 1.4;
@@ -69,8 +71,9 @@ font-family:'Nanum Myeongjo', serif ;
     margin-top: 8rem;   
 }
 .hero-image {
-   width: 350px;
-   height: 350px;
+   width: 500%;
+   height: 500%;
+   min-width: 25px;
    border-radius: 3000px;
    border-width: 50px;
    margin-top: 5rem;
@@ -110,7 +113,7 @@ font-family:'Nanum Myeongjo', serif ;
     max-width: 970px;
     height: auto;
     display: block;
-    width: fit-content;
+    width: 70%;
     margin-bottom: 0;
     padding-bottom: 80px;
     padding-right: 10%;
@@ -172,189 +175,155 @@ font-family:'Nanum Myeongjo', serif ;
     font-size: 2.5rem;
   }
 
-/* telefon */
+
+
+}
+/* Telefon */
 @media only screen and (max-width: 768px) {
-    nav {
- width: max-content;
- margin-top: 60px;
- margin-left: 30px;
-}
-nav a {
-    font-size: 3rem;
-    padding: 4px;
-    background-color: #f0eaea;
-    color: rgb(23, 13, 19);
-}
-
-.about {
-    background-color: rgb(23, 13, 19);
-    width: max-content;
-    padding-right: 10px;
-    margin-right: 10px;
-    margin-top: 80px;
-}
-.about-text {
-    width: auto;
-    margin-top: 0;
-}
-.about p {
-    font-size: 3rem;
-    margin-left: 60px;
-    margin-right: 0;
-    width: 100%;
-    padding-top: 0;
-    margin-top: 0;
-}
-.gallery-images h2 {
-    font-size: 5rem;
-    text-align: center;
-    margin-left: 330px;
-}
-footer p {
-    font-size: 3rem;
-}
-footer h2 {
-    font-size: 4rem;
-}
-figcaption {
-   font-style: normal;
-}
-.about img {
-    margin-left: 60px;
-}
-.about h2 {
-    font-size: 5rem;
-    margin-bottom: 0;
-    margin-top: 330px;
-    text-transform: none
-}
-.hero img {
-    display: none;
-}
-.heading {
-    font-size: 10rem;
-    margin-top: 0px;
-    padding-top: 90px;
-    color: rgb(254, 240, 248);
-    padding-left: 10px;
-    font-weight: bold;
-}
-.gallery-images {
-    width: 760px;
-    margin-left: 60px;
-    margin-bottom: 180px;
-}
-
-}
-@media only screen and (max-width:1200px) {
     body {
-        margin-left: 0;
+        /* Dostosuj styl dla małych ekranów */
+    }
+    nav {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    nav a {
+        font-size: 1.5rem;
+        padding: 8px;
     }
     .about {
-        background-color: rgb(23, 13, 19);
-        align-items: center;
+        margin-top: 20px;
+    }
+    .about-text {
+        width: auto;
+        margin-top: 0;
+        padding: 0 10px;
+    }
+    .about p {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+    .gallery-images h2 {
+        font-size: 2.5rem;
+        text-align: center;
         margin-left: 0;
-        margin-right: 0
     }
-    .about-text {
-        font-size: 4rem;
-        width: 900px;
+    footer p {
+        font-size: 1.5rem;
     }
-footer {
-    width:1200px;
-}
-.gallery-images {
-  max-width: 1200px;
-}
-.gallery-row img {
-   width: 980px;
-   margin-right: 0;
-   padding-right: 0;
-   justify-self: center;
-   justify-content: center;
-}
-p {
-    font-size: 2rem;
-}
-figcaption {
-    width: fit-content;
-    font-size: 2rem;
-    padding-top: 40px;
-    text-align: center;
-}
-}
-@media only screen and (min-width:1500px) and (max-width:1900px){
-    .hero-image {
-        width: 600px;
-        height: 600px; 
-}
-p {
-    font-size: 2rem;
-}
-}
-@media only screen and (min-width:1900px) {
-    .hero-image {
-       min-width: 700px;
-        height: 700px;
-        align-self: center;
+    footer h2 {
+        font-size: 2rem;
     }
-    nav {
-        margin-top: 50px;
-        margin-left: 40px;
+    figcaption {
+        font-size: 1.2rem;
+        width: 100%;
     }
-    nav a{
-        font-size: 3rem;
-        padding-top: 40px;
+    .hero img {
+        display: none;
     }
-    .about-text {
-        padding-left: 40px;
-    }
-    p {
-        font-size: 3rem;
+    .heading {
+        font-size: 5rem;
+        margin-top: 0px;
+        padding-top: 20px;
+        color: rgb(254, 240, 248);
+        padding-left: 10px;
+        font-weight: bold;
     }
     .gallery-images {
         width: 100%;
+        margin-left: 10%;
+        margin-bottom: 10%;
     }
-    .gallery-row img {
-        width: 500px;
-    }
-    .about img {
-        width: 1500px;
-        align-self: center;
-        padding-top: 30px;
-    }
-    .about p {
-        align-self: center;
-        margin-left: 100px;
-        font-size: 6rem;
-    }
-    .about h1 {
-        font-size: 7rem;
-    }
-   .gallery-images h1 {
-    font-size: 7rem;
-   }
-   figcaption {
-    font-size: 4rem;
-    width: 500px
-   }
-    .heading {
-        font-size: 12rem;
+    .container {
+        grid-template-columns: 1fr ;
     }
 }
-@media only screen and (min-width:2600px) {
+
+/* Tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        /* Dostosuj styl dla tabletów */
+    }
+    nav {
+        /* Dostosuj nawigację dla tabletów */
+    }
     .hero-image {
-        width: 900px;
-        height: 900px;
-        margin-right: 500px;
-        margin-top: 400px;
+        display: none;
+    }
+    .column-right {
+        display: none;
+    }
+    nav {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    nav a {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+    .about {
+        margin-top: 20px;
+    }
+    .about-text {
+        width: auto;
+        margin-top: 0;
+        padding: 0 10px;
+    }
+    .about p {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+    .gallery-images h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    footer p {
+        font-size: 1.5rem;
+    }
+    footer h2 {
+        font-size: 2rem;
+    }
+    figcaption {
+        font-size: 1.2rem;
+        width: 40%;
+    }
+    .column-left {
+     
+        padding-left: 0%;
     }
     .heading {
-        margin-left: 300px;
+        font-size: 5rem;
+        margin-top: 0px;
+        padding-top: 20px;
+        color: rgb(254, 240, 248);
+        padding-left: 10px;
+        font-weight: bold;
     }
-    .about p{
-        margin-left: 0px;
-        padding-left: 0px;
-        align-content: center;
+    .gallery-images {
+        width: 100%;
+        margin-left: 
+        margin-bottom: 
     }
+    .gallery-images img {
+        width:40%;
+    }
+   
+}
+    /* Reszta stylów dla tabletów */
+}
+
+/* Desktop */
+@media only screen and (min-width: 1025px) {
+    body {
+        /* Dostosuj styl dla ekranów desktopowych */
+    }
+    nav {
+        /* Dostosuj nawigację dla ekranów desktopowych */
+    }
+    .hero-image {
+        display: none;}
+
+
+    /* Reszta stylów dla ekranów desktopowych */
 }
